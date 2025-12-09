@@ -30,11 +30,11 @@ There are many parameters involved in plotting; those to calculate the eigenvalu
 
 ## Geometric parameters of the basin
 * n_value is the number of basins in the geometry. n_value=2 is the default 2-basin geometry (see the table for visualisation)
-* $b$ is the basin steepness/slope (higher=steeper and deeper basins), b=1 is the default parameter. 
-* $s_0$ is the size of the outer basin, s_0=0.6 is the default parameter
-* $s_1$ is the size of the right inner basin (more negative means the the basin is deeper, steeper and with a smaller flat part), s_1=-0.5 is the default parameter
-* $s_2$ is the size of the left inner basin (more negative means the the basin is deeper, steeper and with a smaller flat part), s_1=-0.5 is the default parameter.
-If $s_1$=$s_2$, then the basin geometry is *symmetric* and the additional symmetric mode in plot_modes=1 can also be depicted.
+* $b$ is the basin steepness/slope (higher=steeper and deeper basins), $b$ =1 is the default parameter. 
+* $s_0$ is the size of the outer basin, $s_0$ = 0.6 is the default parameter
+* $s_1$ is the size of the right inner basin (more negative means the the basin is deeper, steeper and with a smaller flat part), $s_1$ =-0.5 is the default parameter
+* $s_2$ is the size of the left inner basin (more negative means the the basin is deeper, steeper and with a smaller flat part), $s_1$ =-0.5 is the default parameter.
+If $s_1$ = $s_2$, then the basin geometry is *symmetric* and the additional symmetric mode in plot_modes=1 can also be depicted.
 
 This should be enough to get started! Have fun changing the parameters :)
 
