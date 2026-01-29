@@ -1,7 +1,7 @@
 %Plot the free mode eigenvalue solutions of the linearised rigid-lid Shallow water equations
 %on the two-basin geometry
 options=optimset('MaxIter',1e10,'MaxFunEvals',1e10, "TolFun", 1e-10, "TolX", 1e-20);
-addpath('myfunctions')
+addpath('N_basin_plots/myfunctions')
 
 
 %%%%
@@ -118,4 +118,5 @@ w_solve_values_anti=sort(w_solve_values_anti, "descend")
 %plot modes
 h=plot_contours(x,y,X,Y,T,S,b,s_0, n_mode, n_value, s_i_list, ...
     dim,basin_type,number_plots,plottype,plot_modes, plotwhat,w_solve_values,w_solve_values_anti, ...
+
     filter,partition, tau_interval_top, tau_interval_bottom);
